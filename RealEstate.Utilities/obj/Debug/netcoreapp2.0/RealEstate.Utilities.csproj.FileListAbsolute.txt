@@ -6,3 +6,11 @@ D:\YouTube\GraphQL\RealEstateAPI\RealEstate.Utilities\obj\Debug\netcoreapp2.0\Re
 D:\YouTube\GraphQL\RealEstateAPI\RealEstate.Utilities\obj\Debug\netcoreapp2.0\RealEstate.Utilities.AssemblyInfo.cs
 D:\YouTube\GraphQL\RealEstateAPI\RealEstate.Utilities\obj\Debug\netcoreapp2.0\RealEstate.Utilities.dll
 D:\YouTube\GraphQL\RealEstateAPI\RealEstate.Utilities\obj\Debug\netcoreapp2.0\RealEstate.Utilities.pdb
+D:\Source\Github\RealEstateGraphQL\RealEstateGraphQL\RealEstate.Utilities\bin\Debug\netcoreapp2.0\RealEstate.Utilities.deps.json
+D:\Source\Github\RealEstateGraphQL\RealEstateGraphQL\RealEstate.Utilities\bin\Debug\netcoreapp2.0\RealEstate.Utilities.dll
+D:\Source\Github\RealEstateGraphQL\RealEstateGraphQL\RealEstate.Utilities\bin\Debug\netcoreapp2.0\RealEstate.Utilities.pdb
+D:\Source\Github\RealEstateGraphQL\RealEstateGraphQL\RealEstate.Utilities\obj\Debug\netcoreapp2.0\RealEstate.Utilities.AssemblyInfoInputs.cache
+D:\Source\Github\RealEstateGraphQL\RealEstateGraphQL\RealEstate.Utilities\obj\Debug\netcoreapp2.0\RealEstate.Utilities.AssemblyInfo.cs
+D:\Source\Github\RealEstateGraphQL\RealEstateGraphQL\RealEstate.Utilities\obj\Debug\netcoreapp2.0\RealEstate.Utilities.csproj.CoreCompileInputs.cache
+D:\Source\Github\RealEstateGraphQL\RealEstateGraphQL\RealEstate.Utilities\obj\Debug\netcoreapp2.0\RealEstate.Utilities.dll
+D:\Source\Github\RealEstateGraphQL\RealEstateGraphQL\RealEstate.Utilities\obj\Debug\netcoreapp2.0\RealEstate.Utilities.pdb

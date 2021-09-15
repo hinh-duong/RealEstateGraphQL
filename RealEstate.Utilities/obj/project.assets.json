@@ -655,10 +655,11 @@
   },
   "libraries": {
     "GraphQL/2.0.0": {
-      "sha512": "g5AWT7K6HBYs8GvNx2COdpe6bBC8GCu8sH2lLLGjFO4ImxlV8ARslFM9NsAHtX2Bw/d+DhHvBC2hVjkJ31AK2A==",
+      "sha512": "8CU+95LohbkKy+N7RzKmPrt2QTPHuvLGYKPZzFowy6dYnb0vkd/kQKpVzDj/zErqHO320vQnOWZ/OzkVlTRo/Q==",
       "type": "package",
       "path": "graphql/2.0.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "graphql.2.0.0.nupkg.sha512",
         "graphql.nuspec",
@@ -2842,26 +2843,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\domin\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "D:\\YouTube\\GraphQL\\RealEstateAPI\\RealEstate.Utilities\\RealEstate.Utilities.csproj",
+      "projectUniqueName": "D:\\Source\\Github\\RealEstateGraphQL\\RealEstateGraphQL\\RealEstate.Utilities\\RealEstate.Utilities.csproj",
       "projectName": "RealEstate.Utilities",
-      "projectPath": "D:\\YouTube\\GraphQL\\RealEstateAPI\\RealEstate.Utilities\\RealEstate.Utilities.csproj",
-      "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-      "outputPath": "D:\\YouTube\\GraphQL\\RealEstateAPI\\RealEstate.Utilities\\obj\\",
+      "projectPath": "D:\\Source\\Github\\RealEstateGraphQL\\RealEstateGraphQL\\RealEstate.Utilities\\RealEstate.Utilities.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Source\\Github\\RealEstateGraphQL\\RealEstateGraphQL\\RealEstate.Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2873,6 +2871,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
           "projectReferences": {}
         }
       },
@@ -2884,27 +2883,34 @@
     },
     "frameworks": {
       "netcoreapp2.0": {
+        "targetAlias": "netcoreapp2.0",
         "dependencies": {
           "GraphQL": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "11.0.2"
+            "version": "[11.0.2, )"
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

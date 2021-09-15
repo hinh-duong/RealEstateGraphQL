@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "2a6d717a13def476c6118ee056969b908fedcd70"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -23,18 +23,27 @@
           "System.Reactive.Linq": "3.1.1"
         },
         "runtime": {
-          "lib/netstandard2.0/GraphQL.dll": {}
+          "lib/netstandard2.0/GraphQL.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
         }
       },
       "GraphQL-Parser/3.0.0": {
         "runtime": {
-          "lib/netstandard1.1/GraphQL-Parser.dll": {}
+          "lib/netstandard1.1/GraphQL-Parser.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
         }
       },
       "Microsoft.NETCore.Targets/1.0.1": {},
       "Newtonsoft.Json/11.0.2": {
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
         }
       },
       "System.Collections/4.0.11": {
@@ -141,12 +150,18 @@
           "System.Threading.ThreadPool": "4.0.10"
         },
         "runtime": {
-          "lib/netcoreapp1.0/System.Reactive.Core.dll": {}
+          "lib/netcoreapp1.0/System.Reactive.Core.dll": {
+            "assemblyVersion": "3.0.6000.0",
+            "fileVersion": "3.1.1.0"
+          }
         }
       },
       "System.Reactive.Interfaces/3.1.1": {
         "runtime": {
-          "lib/netstandard1.0/System.Reactive.Interfaces.dll": {}
+          "lib/netstandard1.0/System.Reactive.Interfaces.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.1.0"
+          }
         }
       },
       "System.Reactive.Linq/3.1.1": {
@@ -155,7 +170,10 @@
           "System.Runtime.InteropServices.WindowsRuntime": "4.0.1"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reactive.Linq.dll": {}
+          "lib/netstandard1.3/System.Reactive.Linq.dll": {
+            "assemblyVersion": "3.0.3000.0",
+            "fileVersion": "3.1.1.0"
+          }
         }
       },
       "System.Reflection/4.1.0": {
@@ -279,7 +297,7 @@
     "GraphQL/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-g5AWT7K6HBYs8GvNx2COdpe6bBC8GCu8sH2lLLGjFO4ImxlV8ARslFM9NsAHtX2Bw/d+DhHvBC2hVjkJ31AK2A==",
+      "sha512": "sha512-8CU+95LohbkKy+N7RzKmPrt2QTPHuvLGYKPZzFowy6dYnb0vkd/kQKpVzDj/zErqHO320vQnOWZ/OzkVlTRo/Q==",
       "path": "graphql/2.0.0",
       "hashPath": "graphql.2.0.0.nupkg.sha512"
     },
