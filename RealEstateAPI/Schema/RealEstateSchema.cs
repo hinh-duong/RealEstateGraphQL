@@ -8,8 +8,8 @@ namespace RealEstate.API.Schema
     {
         public RealEstateSchema(IDependencyResolver resolver) : base(resolver)
         {
-            Query = resolver.Resolve<PropertyQuery>();
-            Mutation = resolver.Resolve<PropertyMutation>();
+            Query = resolver.Resolve<RealEstateQuery>();
+            Mutation = resolver.Resolve<RealEstateMutation>();
         }
     }
 }

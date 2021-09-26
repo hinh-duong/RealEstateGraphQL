@@ -36,8 +36,8 @@ namespace RealEstate.API
 
             services.AddDbContext<RealEstateContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:RealEstateDb"]));
             services.AddSingleton<IDocumentExecuter, DocumentExecuter>();
-            services.AddSingleton<PropertyQuery>();
-            services.AddSingleton<PropertyMutation>();
+            services.AddSingleton<RealEstateQuery>();
+            services.AddSingleton<RealEstateMutation>();
             services.AddSingleton<PropertyType>();
             services.AddSingleton<PropertyInputType>();
             services.AddSingleton<PaymentType>();

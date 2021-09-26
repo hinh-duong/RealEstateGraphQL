@@ -1,13 +1,13 @@
-﻿using System.Collections.Generic;
-using GraphQL.Types;
+﻿using GraphQL.Types;
 using RealEstate.Types.Property;
 using RealEstate.DataAccess.Repositories.Contracts;
+using RealEstate.Types.Payment;
 
 namespace RealEstate.API.Queries
 {
-    public class PropertyQuery : ObjectGraphType
+    public class RealEstateQuery : ObjectGraphType
     {
-        public PropertyQuery(IPropertyRepository propertyRepository)
+        public RealEstateQuery(IPropertyRepository propertyRepository, IPaymentRepository paymentRepository)
         {
             Field<ListGraphType<PropertyType>>(
                 "properties",
@@ -17,6 +17,10 @@ namespace RealEstate.API.Queries
                 "property",
                 arguments: new QueryArguments(new QueryArgument<IntGraphType> { Name = "id" }),
                 resolve: context => propertyRepository.GetById(context.GetArgument<int>("id")));
+
+            Field<ListGraphType<PaymentType>>(
+               "payments",
+               resolve: context => paymentRepository.GetAll());
         }
     }
 }

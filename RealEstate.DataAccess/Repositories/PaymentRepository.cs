@@ -15,6 +15,11 @@ namespace RealEstate.DataAccess.Repositories
             _db = db;
         }
 
+        public IEnumerable<Payment> GetAll()
+        {
+            return _db.Payments;
+        }
+
         public IEnumerable<Payment> GetAllForProperty(int propertyId)
         {
             return _db.Payments.Where(x => x.PropertyId == propertyId);

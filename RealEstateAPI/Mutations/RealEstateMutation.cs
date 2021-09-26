@@ -9,11 +9,11 @@ using RealEstate.Types.Property;
 
 namespace RealEstate.API.Mutations
 {
-    public class PropertyMutation : ObjectGraphType
+    public class RealEstateMutation : ObjectGraphType
     {
-        public PropertyMutation(IPropertyRepository propertyRepository)
+        public RealEstateMutation(IPropertyRepository propertyRepository)
         {
-            Name = "AddPropertyMutation";
+            Name = nameof(RealEstateMutation);
 
             Field<PropertyType>(
                 "addProperty",
@@ -24,6 +24,14 @@ namespace RealEstate.API.Mutations
                     var property = context.GetArgument<Property>("property");
                     return propertyRepository.Add(property);
                 });
+
+            Field<BooleanGraphType>(
+               "testScalar",
+               arguments: new QueryArguments(),
+               resolve: context =>
+               {
+                   return true;
+               });
         }
     }
 }

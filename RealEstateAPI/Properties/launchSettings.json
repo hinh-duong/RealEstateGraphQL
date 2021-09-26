@@ -19,11 +19,11 @@
     "RealEstateAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "graphql",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:65217/"
+      "applicationUrl": "http://localhost:8000/"
     }
   }
 }
